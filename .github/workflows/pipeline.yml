@@ -61,6 +61,6 @@ jobs:
       # Deploy the Docker image to the GKE cluster
       - name: Deploy to GKE
         run: |-
-          kubectl apply -f k8/web-application.yml
-          kubectl apply -f k8/load-balancer.yml
+          kubectl apply -f k8/web-application.yaml
+          kubectl apply -f k8/load-balancer.yaml
           kubectl get pods

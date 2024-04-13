@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: mirzaxbilal/devops:latest
+          image: docker.io/mirzaxbilal/devops:latest
           ports:
             - containerPort: 3000
           env:
